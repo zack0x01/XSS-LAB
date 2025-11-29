@@ -6,6 +6,11 @@ from datetime import datetime
 app = Flask(__name__)
 app.secret_key = 'vulnerable-lab-secret-key-change-in-production'
 
+# VULNERABLE: Disable HttpOnly flag to allow JavaScript cookie access for XSS demonstrations
+app.config['SESSION_COOKIE_HTTPONLY'] = False
+# Also disable Secure flag for local development (remove in production)
+app.config['SESSION_COOKIE_SECURE'] = False
+
 # Database initialization
 def init_db():
     conn = sqlite3.connect('lab.db')
