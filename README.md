@@ -33,7 +33,7 @@ This lab recreates three XSS vulnerabilities from real bug bounty reports:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/xss-lab.git
+git clone https://github.com/Ag3nt47/xss-lab.git
 cd xss-lab
 ```
 
@@ -253,7 +253,7 @@ This lab is based on real bug bounty reports:
 - 🎥 [YouTube](https://www.youtube.com/@zack0x01)
 - 📷 [Instagram](https://www.instagram.com/zack0x01)
 - 🐦 [Twitter](https://twitter.com/zack0x01)
-- 🎓 [Bug Bounty Course](https://lureo.shop)
+- 🎓 [Bug Bounty BootCamp](https://lureo.shop)
 
 ## License
 
